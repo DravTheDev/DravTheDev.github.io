@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Drav_TheDev | Coin Calculator</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="calcIntro">
+        <h1 id="calcTitle">Coin Calculator</h1>
+        <h3 id="calcDesc">A coin calculator for all of those pesky coins!</h3>
+        <h3>To use this coin calculator, input the number of coins you have.</h3>
+        <h3>For example if you have 7 quarters you will put 7 in the 25¢ slot.</h3>
+    </div>
+    <div id="calcBody">
+        <input id="coin25" type="number" placeholder="25¢" value="0">
+        <input id="coin10" type="number" placeholder="10¢" value="0">
+        <input id="coin5" type="number" placeholder="5¢" value="0">
+        <input id="coin1" type="number" placeholder="1¢" value="0">
+        <button id="coinButton">Calculate</button>
+        <input id="coinPrice" type="text" placeholder="Final Amount" readonly>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
