@@ -134,12 +134,13 @@
 .content {
     padding-left: 10px;
     padding-right: 10px;
+    margin: 0 auto;
 }
 
 .content .contentTitle {
     text-align: center;
 }
 
-.content .contentTitle {
+.content .contentMain {
     text-align: center;
 }
