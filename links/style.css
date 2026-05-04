@@ -1,3 +1,19 @@
 body {
 	text-align: center;
 }
+
+.table-wrap {
+	display: flex;
+	justify-content: center;
+}
+
+.simple-table {
+	border-collapse: collapse;
+	width: 100%;
+	max-width: 500px;
+}
+
+.simple-table td {
+	border: 1px solid #ccc;
+	padding: 8px 12px;
+}
